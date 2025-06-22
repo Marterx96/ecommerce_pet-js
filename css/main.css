@@ -17,6 +17,7 @@ img {
   justify-content: space-between;
   align-items: center;
   box-sizing: border-box;
+  
 }
 .header__i {
   width: 35px;
@@ -63,6 +64,7 @@ img {
 .products article {
   cursor: pointer;
   text-align: center;
+  transition: all .25s;
 }
 .products img {
   width: 200px;

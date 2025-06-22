@@ -41,3 +41,11 @@ if(logo.hasAttribute("src")){
  cartIcon.addEventListener("click",() => {
    cart.classList.toggle("show");
  } )
+
+ const product = document.querySelector(".products__article--maus")
+ product.addEventListener("mouseenter",() =>{
+  product.style.opacity = ".5"
+ })
+  product.addEventListener("mouseleave",() =>{
+  product.style.opacity = "1"
+ })
