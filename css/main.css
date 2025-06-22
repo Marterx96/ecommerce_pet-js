@@ -105,6 +105,10 @@ img {
   top: 100px;
   box-shadow: -19px -1px 22px -15px rgba(0, 0, 0, 0.3);
   color: #1d1c1c;
+  transition: all .25s ease;
+  &.show {
+    right: 0;
+  }
 }
 .cart h2 {
   width: 100%;
